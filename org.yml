@@ -25,6 +25,7 @@ spec:
   profile:
     displayName: FTS
     email: infrastructure@example.com
+  children: [flex]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -33,6 +34,7 @@ metadata:
 spec:
   type: team
   parent: fts
+  children: [karthikjayaraman80]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
