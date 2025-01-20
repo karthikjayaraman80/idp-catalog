@@ -5,7 +5,6 @@ metadata:
   name: apm00005
   description: A simple description of this APM
 spec:
-  type: application
   displayName: Flex Application
   lifecycle: production
   owner: flex
