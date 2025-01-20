@@ -1,9 +1,11 @@
 ---
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: Component
 metadata:
   name: apm00005
   description: A simple description of this APM
 spec:
+  type: application
+  displayName: Flex Application
   lifecycle: production
   owner: flex
