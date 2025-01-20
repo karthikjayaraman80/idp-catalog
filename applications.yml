@@ -1,11 +1,3 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: plateng
-  description: A simple description of this APM
-spec:
-  lifecycle: production
-  owner: flex
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -15,4 +7,3 @@ metadata:
 spec:
   lifecycle: production
   owner: flex
-  domain: plateng
