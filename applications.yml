@@ -1,6 +1,6 @@
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Application
 metadata:
   name: apm00005
   description: A simple description of this APM
