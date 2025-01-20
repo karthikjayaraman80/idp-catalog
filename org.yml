@@ -14,7 +14,6 @@ metadata:
   name: guests
 spec:
   type: team
-  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -26,9 +25,6 @@ spec:
   profile:
     displayName: FTS
     email: infrastructure@example.com
-  parent: 
-  children: []
-  members: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -37,7 +33,6 @@ metadata:
 spec:
   type: team
   parent: fts
-  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
