@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  id: plateng
-  name: Platform Engineering
+  name: plateng
   description: A simple description of this APM
 spec:
   lifecycle: production
@@ -11,8 +10,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  id: apm00005
-  name: Flex Application
+  name: apm00005
   description: A simple description of this APM
 spec:
   lifecycle: production
