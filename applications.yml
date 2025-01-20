@@ -15,7 +15,6 @@ metadata:
   name: Flex Application
   description: A simple description of this APM
 spec:
-  type: application
   lifecycle: production
   owner: flex
   domain: plateng
