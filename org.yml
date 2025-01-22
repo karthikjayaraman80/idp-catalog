@@ -35,7 +35,7 @@ metadata:
 spec:
   type: team
   parent: fts
-  children: [karthikjayaraman80]
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
